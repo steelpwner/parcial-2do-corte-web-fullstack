@@ -6,7 +6,7 @@ function Header({titulo,logo}) {
         <Fragment>
             <div className="header">
                 <span>
-                    <img src={logo} id="logo"/>{titulo}
+                    <img src={logo} id="logo" alt="logo"/>{titulo}
                 </span>
             </div>
         </Fragment>
