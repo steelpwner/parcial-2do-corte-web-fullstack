@@ -14,7 +14,7 @@ const diapositivas = [{title:"Today's workout pan",text:"We're gonna do 3 fundam
 function App() {
   return (
     <Fragment>
-      <div class="app">
+      <div className="app">
         {/* DIEGO MOLINA CREACIÓN DE HEADER EN LA APLICACIÓN */}
         <Header logo={logo} titulo={titulo}/>
         {/* DIEGO MOLINA CREACIÓN DE DIAPOSITIVAS EN LA APLICACIÓN */}

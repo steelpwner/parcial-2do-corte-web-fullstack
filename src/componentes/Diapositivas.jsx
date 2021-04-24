@@ -6,7 +6,7 @@ function Diapositivas({diapositivas}) {
     const [actual,setActual] = useState(0);
     return (
         <Fragment>
-        <div class="botones">
+        <div className="botones">
             <button
             className="restart btn"
             disabled={actual===0}
@@ -24,7 +24,7 @@ function Diapositivas({diapositivas}) {
             >Next</button>
         </div>
         
-        <div class="diapositiva">
+        <div className="diapositiva">
             <h2>{diapositivas[actual]['title']}</h2>
             <p>{diapositivas[actual]['text']}</p>
         </div>
