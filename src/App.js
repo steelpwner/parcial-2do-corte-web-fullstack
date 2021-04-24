@@ -2,7 +2,6 @@ import {Fragment} from 'react';
 import Header from './componentes/Header';
 import Diapositivas from './componentes/Diapositivas';
 import logo from './logo.png';
-import './App.css';
 const titulo = "Slideshow App";
 
 /* DIEGO MOLINA CREACIÓN DE VECTOR DIAPOSITIVAS QUE SE PASARÁ AL COMPONENTE */
